@@ -77,7 +77,6 @@ Description:
   .
   On GHC versions before 7.0 ghc-pkg runs quite slowly.
   In order to not get bored you may run the program with @--verbose=2@ option.
-Tested-With:       GHC==6.10.4, GHC==6.12.3
 Cabal-Version:     >=1.6
 Build-Type:        Simple
 Source-Repository head
