@@ -2,8 +2,7 @@ module Main where
 
 import qualified Distribution.PackageDescription as P
 import Distribution.PackageDescription
-         (GenericPackageDescription, PackageDescription,
-          package, packageDescription, )
+         (GenericPackageDescription, package, packageDescription, )
 import Distribution.PackageDescription.Parse (readPackageDescription, )
 import Distribution.Package
          (Dependency(Dependency), PackageName(PackageName), pkgName, )
