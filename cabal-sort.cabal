@@ -106,12 +106,12 @@ Executable cabal-sort
 
 Executable ghc-pkg-dep
   Build-Depends:
-    Cabal >=1.6 && <1.20,
+    Cabal >=1.6 && <1.21,
     process >=1.0 && <1.3,
     containers >=0.2 && <0.6,
     explicit-exception >=0.1.6 && <0.2,
     utility-ht >=0.0.5 && <0.1,
-    transformers >=0.2 && <0.4,
+    transformers >=0.2 && <0.5,
     bytestring >=0.9.1 && <0.11,
     base >=2 && <5
 
